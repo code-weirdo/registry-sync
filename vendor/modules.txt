@@ -1,0 +1,25 @@
+# github.com/docker/distribution v2.7.0+incompatible
+github.com/docker/distribution/manifest/schema1
+github.com/docker/distribution
+github.com/docker/distribution/manifest
+github.com/docker/distribution/reference
+github.com/docker/distribution/manifest/schema2
+github.com/docker/distribution/digestset
+# github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
+github.com/docker/libtrust
+# github.com/heroku/docker-registry-client v0.0.0-20181004091502-47ecf50fd8d4
+github.com/heroku/docker-registry-client/registry
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/opencontainers/go-digest v1.0.0-rc1
+github.com/opencontainers/go-digest
+# github.com/opencontainers/image-spec v1.0.1
+github.com/opencontainers/image-spec/specs-go/v1
+github.com/opencontainers/image-spec/specs-go
+# github.com/sirupsen/logrus v1.2.0
+github.com/sirupsen/logrus
+# golang.org/x/crypto v0.0.0-20180904163835-0709b304e793
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33
+golang.org/x/sys/unix
+golang.org/x/sys/windows

@@ -1,0 +1,19 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: 1bQKB9BTc5hrPSUM27DXC5wEjsdgLe4f7qXiuP6DvN6pTkY25Bv6N0qbhn/gMQCcrgQTtzvIJlmjYXaLDTCtYAUeiWWVC89wBM6mUGwB89UyA3ssvzJZO2XFvH92k3kG70ftLTchM2ql9p+CrpF8EFqfR70Hf4QPBH1EKyLD/vcnmDKIgARlHLZ7x/I8uJRFJ2N1L0/ETCHoyaXa1b/WaZ9Q/dQ4X+3UP+cDi5OBhwuE4kyXE0uJVI1w7mrah6lkf7qeOhiC7HLHDKkFM0fBZKybeubM0e+BjZoVxMeTixQ1V/JbNxckWQox/uDijELLxuMMD/hnXbsZvxMN3lHR8I6041kdTYbavGSw7JveOXC4fNGea7Cc/Thb/qYWLkNq+qib295XmhHpZA5UFcWIX5xfm+8L4xPPqhYRRq8MKH/rVX0wpwNZ09/P0dMxPp6TRtZZZbIr2x90dl9eV04W26CTOLLM4ZV1eaQm8DOhtjDwBSuactomH4NMwPmcFPxvtVbP1FFGfdt/QGHUKpHp/t/vv8e1LWD6hSsgkSKM2BMGqIPIT21tTsodamIlwLMOwZUx3cTPcKlt9DZ1XftG4bqXma3KX5zXiONuSw7aHU9BUdoB2YsqZLaTKK6totYhFT7Oas6n6ZWIQQ3GelmKABuUDiODYu7UHzln/LC2/8o=
+  file: registry-sync
+  on:
+    repo: code-weirdo/registry-sync
+    tags: true
+go:
+  - 1.11.x
+install: true
+language: go
+os:
+  - linux
+  - osx
+  - windows
+script:
+  - go build
+sudo: false 
